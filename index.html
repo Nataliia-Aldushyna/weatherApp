@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- PR_aldushyna_JavaScript-advanced_weatherApp  -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>OpenWeather</h1>
+    <p class="tagline">
+      Weather forecasts, nowcasts and history in a fast and elegant way
+    </p>
+    <div id="unitsContainer">
+      <button class="c_btn">ºC</button>
+      <button class="f_btn">ºF</button>
+    </div>
+
+    <div id="weatherContainer"></div>
+    <div id="forecastContainer"></div>
+
+    <script src="js/dataService.js"></script>
+    <script src="js/cityForecast.js"></script>
+    <script src="js/cityWeather.js"></script>
+    <script src="js/weatherList.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

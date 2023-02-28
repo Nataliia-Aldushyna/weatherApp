@@ -1,0 +1,116 @@
+ /* PR_aldushyna_JavaScript-advanced_weatherApp */
+
+    body{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        background-image:url(../img/background-img.png);
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+    /* Main style */
+    #unitsContainer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    h1{
+        color: #E0674F;
+        font-size: 60px;
+        margin: 10px 10px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .tagline{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* cityWeather style */
+    #weatherContainer{
+        margin: 50px auto;
+        max-width: 1170px;
+   		background-color: rgba(255,255,255,0.3);
+    	padding: 40px;
+   		color: #3B3C40;
+        font-weight: 400;
+        border-radius:20px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+	}
+
+    .cityBlock {
+        padding: 10px;
+        background-color: rgba(255,255,255,0.5);
+        border-radius:20px;
+        margin-bottom: 10px;
+        box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .city_name{
+        color:#E0674F;
+        font-weight:600;
+    }
+
+    .addData{
+        font-size: 12px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .description{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .forecast_btn, .c_btn, .f_btn{
+        background-color: rgba(255,255,255,0.3);
+        color: #E0674F;
+        font-weight:600;
+        border: 1px solid white;
+        border-radius:10px;
+        padding: 5px;
+        width: 100px;
+    }
+
+    .c_btn{
+        margin-right: 5px;
+     }
+
+    .f_btn{
+        margin-left: 5px;
+    } 
+
+    .forecast_btn:hover, .c_btn:hover, .f_btn:hover{
+        background-color: #E0674F;
+        color: white;
+    }
+
+    /* cityForecast style */
+    table, td {
+        border-bottom:1px solid white;
+    }
+
+    table {
+        border: none;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        width: 1170px;
+    }
+
+    td {
+        text-align: center;
+    }
+    
+    .date{
+        color:#E0674F;
+    }
+
+ 
+
