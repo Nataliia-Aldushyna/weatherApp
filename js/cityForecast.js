@@ -25,7 +25,7 @@ class cityForecast {
         let finalList = forecastList.filter(forecast => {
             let date = new Date(forecast.dt * 1000);
             console.log(date)
-            return date.getHours() == 13;
+            return date.getHours() == 12;
         })
 
         console.log(finalList)
